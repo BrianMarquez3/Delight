@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.usuario.delight"
+    android:revisionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:maxSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="Menu"
+            android:name=".Menu" >
+            <intent-filter>
+                <action android:name="com.example.Menu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="Info"
+            android:name=".Info" >
+            <intent-filter>
+                <action android:name="com.example.Info" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="Pasteles"
+            android:name=".Pasteles" >
+            <intent-filter>
+                <action android:name="com.example.Pasteles" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="Chocolates"
+            android:name=".Chocolates" >
+            <intent-filter>
+                <action android:name="com.example.Chocolates" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="Dulces"
+            android:name=".Dulces" >
+            <intent-filter>
+                <action android:name="com.example.Dulces" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="PastelChocolate"
+            android:name=".PastelChocolate" >
+            <intent-filter>
+                <action android:name="com.example.PastelChocolate" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="Pedido"
+            android:name=".Pedido" >
+            <intent-filter>
+                <action android:name="com.example.Pedido" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="Gracias"
+            android:name=".Gracias" >
+            <intent-filter>
+                <action android:name="com.example.Gracias" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="PastelVainilla"
+            android:name=".PastelVainilla" >
+            <intent-filter>
+                <action android:name="com.example.PastelVainilla" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="PastelManzana"
+            android:name=".PastelManzana" >
+            <intent-filter>
+                <action android:name="com.example.PastelManzana" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="ChocolateCoco"
+            android:name=".ChocolateCoco" >
+            <intent-filter>
+                <action android:name="com.example.ChocolateCoco" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="ChocolateManjar"
+            android:name=".ChocolateManjar" >
+            <intent-filter>
+                <action android:name="com.example.ChocolateManjar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity            android:label="Caramelo"
+            android:name=".Caramelo" >
+            <intent-filter>
+                <action android:name="com.example.Caramelo" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

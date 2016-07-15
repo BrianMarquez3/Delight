@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/te">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tableLayout">
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+    </TableLayout>
+    <Spinner
+        android:id="@+id/sabores_view"
+        android:layout_width="320dp"
+        android:layout_height="51dp"
+        android:gravity="fill_vertical"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_gravity="center"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delcia Ofrece una Amplia gama de productos para nuestros clientes, acontinuacion encontrara un listado de nuestros productos"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignEnd="@+id/sabores_view"
+        android:layout_alignStart="@+id/sabores_view" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView2"
+        android:id="@+id/relativeLayout">
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:text="ATRAS"
+        android:id="@+id/btn"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/relativeLayout2" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:text="INFO"
+        android:id="@+id/button3"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_alignEnd="@+id/sabores_view" />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn"
+        android:layout_alignStart="@+id/sabores_view"
+        android:layout_marginTop="36dp"
+        android:id="@+id/relativeLayout2">
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="170dp"
+            android:background="@drawable/pastelchocolate"
+            android:id="@+id/button2"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="39dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

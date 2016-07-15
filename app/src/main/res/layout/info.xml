@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cafe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <TextView
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="MISIÓN
+    “Poner al alcance de todos los mejores cupcakes con los cuales siempre disfrutarás y recordarás momentos inolvidables, elaborados cuidadosamente, con insumos de alta calidad e innovación constante
+    VISIÓN
+    “Ser la tienda de cupcakes más reconocida y exclusiva a nivel nacional por la calidad de su servicio y sus productos”
+    NUESTROS PRODUCTOS"
+
+            android:textSize="19dp"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </ScrollView>
+
+</RelativeLayout>

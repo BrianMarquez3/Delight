@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/late1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Chocolate de Coco"
+        android:textColor="#CC6633"
+        android:id="@+id/textView3"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="270dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/coco"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Hacer Pedido"
+        android:onClick="onClick"
+        android:id="@+id/button6"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageButton" />
+
+</RelativeLayout>
